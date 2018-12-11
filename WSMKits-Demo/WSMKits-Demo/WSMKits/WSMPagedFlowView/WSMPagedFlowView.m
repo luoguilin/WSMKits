@@ -65,10 +65,6 @@ static NSString *subviewClassName;
     
 }
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-}
-
 - (void)setLeftRightMargin:(CGFloat)leftRightMargin {
     _leftRightMargin = leftRightMargin * 0.5;
     
