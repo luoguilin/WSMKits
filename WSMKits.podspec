@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "https://weibo.com/mvoicer"
 
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/luoguilin/WSMKits.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/m-voicer/WSMKits.git", :tag => "#{s.version}" }
 
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"

@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE6792D621C2104300C7FA54 /* WSMPagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6792B021C2104300C7FA54 /* WSMPagedFlowView.m */; };
+		FE6792D721C2104300C7FA54 /* WSMPagedFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6792B121C2104300C7FA54 /* WSMPagedFlowCell.m */; };
+		FEEB6C8B21C8C48400514842 /* WSMStyleInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB6C8A21C8C48400514842 /* WSMStyleInputView.m */; };
+		FEEB6C8E21C8C4F500514842 /* StyleInputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEB6C8D21C8C4F500514842 /* StyleInputViewController.m */; };
 		FEF728FD21BF880300893209 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF728FC21BF880300893209 /* AppDelegate.m */; };
 		FEF7290321BF880300893209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF7290121BF880300893209 /* Main.storyboard */; };
 		FEF7290521BF880400893209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF7290421BF880400893209 /* Assets.xcassets */; };
 		FEF7290821BF880400893209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEF7290621BF880400893209 /* LaunchScreen.storyboard */; };
 		FEF7290B21BF880400893209 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7290A21BF880400893209 /* main.m */; };
-		FEF7291721BF89BA00893209 /* WSMPagedFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7291321BF89BA00893209 /* WSMPagedFlowCell.m */; };
-		FEF7291821BF89BA00893209 /* WSMPagedFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7291421BF89BA00893209 /* WSMPagedFlowView.m */; };
 		FEF7291D21BF8CAB00893209 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7291C21BF8CAB00893209 /* HomeTableViewController.m */; };
 		FEF7292021BF906B00893209 /* PagedFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7291F21BF906B00893209 /* PagedFlowViewController.m */; };
 		FEF7292321BF93C800893209 /* CustomPagedFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF7292221BF93C800893209 /* CustomPagedFlowCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE6792AE21C2104300C7FA54 /* WSMPagedFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMPagedFlowView.h; sourceTree = "<group>"; };
+		FE6792AF21C2104300C7FA54 /* WSMPagedFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMPagedFlowCell.h; sourceTree = "<group>"; };
+		FE6792B021C2104300C7FA54 /* WSMPagedFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMPagedFlowView.m; sourceTree = "<group>"; };
+		FE6792B121C2104300C7FA54 /* WSMPagedFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMPagedFlowCell.m; sourceTree = "<group>"; };
+		FEEB6C8921C8C48400514842 /* WSMStyleInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMStyleInputView.h; sourceTree = "<group>"; };
+		FEEB6C8A21C8C48400514842 /* WSMStyleInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMStyleInputView.m; sourceTree = "<group>"; };
+		FEEB6C8C21C8C4F500514842 /* StyleInputViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StyleInputViewController.h; sourceTree = "<group>"; };
+		FEEB6C8D21C8C4F500514842 /* StyleInputViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StyleInputViewController.m; sourceTree = "<group>"; };
 		FEF728F821BF880300893209 /* WSMKits-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WSMKits-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF728FB21BF880300893209 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FEF728FC21BF880300893209 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -28,10 +38,6 @@
 		FEF7290721BF880400893209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEF7290921BF880400893209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF7290A21BF880400893209 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FEF7291321BF89BA00893209 /* WSMPagedFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMPagedFlowCell.m; sourceTree = "<group>"; };
-		FEF7291421BF89BA00893209 /* WSMPagedFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSMPagedFlowView.m; sourceTree = "<group>"; };
-		FEF7291521BF89BA00893209 /* WSMPagedFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMPagedFlowCell.h; sourceTree = "<group>"; };
-		FEF7291621BF89BA00893209 /* WSMPagedFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSMPagedFlowView.h; sourceTree = "<group>"; };
 		FEF7291B21BF8CAB00893209 /* HomeTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
 		FEF7291C21BF8CAB00893209 /* HomeTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
 		FEF7291E21BF906B00893209 /* PagedFlowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PagedFlowViewController.h; sourceTree = "<group>"; };
@@ -51,6 +57,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE67929A21C2104300C7FA54 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FEEB6C8821C8C43B00514842 /* WSMStyleInputView */,
+				FE6792AD21C2104300C7FA54 /* WSMPagedFlowView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FE6792AD21C2104300C7FA54 /* WSMPagedFlowView */ = {
+			isa = PBXGroup;
+			children = (
+				FE6792AE21C2104300C7FA54 /* WSMPagedFlowView.h */,
+				FE6792B021C2104300C7FA54 /* WSMPagedFlowView.m */,
+				FE6792AF21C2104300C7FA54 /* WSMPagedFlowCell.h */,
+				FE6792B121C2104300C7FA54 /* WSMPagedFlowCell.m */,
+			);
+			path = WSMPagedFlowView;
+			sourceTree = "<group>";
+		};
+		FEEB6C8821C8C43B00514842 /* WSMStyleInputView */ = {
+			isa = PBXGroup;
+			children = (
+				FEEB6C8921C8C48400514842 /* WSMStyleInputView.h */,
+				FEEB6C8A21C8C48400514842 /* WSMStyleInputView.m */,
+			);
+			path = WSMStyleInputView;
+			sourceTree = "<group>";
+		};
 		FEF728EF21BF880300893209 = {
 			isa = PBXGroup;
 			children = (
@@ -70,9 +105,9 @@
 		FEF728FA21BF880300893209 /* WSMKits-Demo */ = {
 			isa = PBXGroup;
 			children = (
-				FEF7291121BF89BA00893209 /* WSMKits */,
 				FEF728FB21BF880300893209 /* AppDelegate.h */,
 				FEF728FC21BF880300893209 /* AppDelegate.m */,
+				FE67929A21C2104300C7FA54 /* Classes */,
 				FEF7291A21BF8C4E00893209 /* Views */,
 				FEF7291921BF8C1E00893209 /* ViewControllers */,
 				FEF7290121BF880300893209 /* Main.storyboard */,
@@ -84,25 +119,6 @@
 			path = "WSMKits-Demo";
 			sourceTree = "<group>";
 		};
-		FEF7291121BF89BA00893209 /* WSMKits */ = {
-			isa = PBXGroup;
-			children = (
-				FEF7291221BF89BA00893209 /* WSMPagedFlowView */,
-			);
-			path = WSMKits;
-			sourceTree = "<group>";
-		};
-		FEF7291221BF89BA00893209 /* WSMPagedFlowView */ = {
-			isa = PBXGroup;
-			children = (
-				FEF7291621BF89BA00893209 /* WSMPagedFlowView.h */,
-				FEF7291421BF89BA00893209 /* WSMPagedFlowView.m */,
-				FEF7291521BF89BA00893209 /* WSMPagedFlowCell.h */,
-				FEF7291321BF89BA00893209 /* WSMPagedFlowCell.m */,
-			);
-			path = WSMPagedFlowView;
-			sourceTree = "<group>";
-		};
 		FEF7291921BF8C1E00893209 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +126,8 @@
 				FEF7291C21BF8CAB00893209 /* HomeTableViewController.m */,
 				FEF7291E21BF906B00893209 /* PagedFlowViewController.h */,
 				FEF7291F21BF906B00893209 /* PagedFlowViewController.m */,
+				FEEB6C8C21C8C4F500514842 /* StyleInputViewController.h */,
+				FEEB6C8D21C8C4F500514842 /* StyleInputViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -193,12 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE6792D721C2104300C7FA54 /* WSMPagedFlowCell.m in Sources */,
 				FEF7292021BF906B00893209 /* PagedFlowViewController.m in Sources */,
-				FEF7291721BF89BA00893209 /* WSMPagedFlowCell.m in Sources */,
 				FEF7292321BF93C800893209 /* CustomPagedFlowCell.m in Sources */,
+				FE6792D621C2104300C7FA54 /* WSMPagedFlowView.m in Sources */,
 				FEF7291D21BF8CAB00893209 /* HomeTableViewController.m in Sources */,
-				FEF7291821BF89BA00893209 /* WSMPagedFlowView.m in Sources */,
+				FEEB6C8E21C8C4F500514842 /* StyleInputViewController.m in Sources */,
 				FEF7290B21BF880400893209 /* main.m in Sources */,
+				FEEB6C8B21C8C48400514842 /* WSMStyleInputView.m in Sources */,
 				FEF728FD21BF880300893209 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

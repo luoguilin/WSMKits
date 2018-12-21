@@ -65,7 +65,9 @@
 }
 
 - (CGSize)sizeForPageInFlowView:(WSMPagedFlowView *)flowView {
-    return CGSizeMake(Width - 50, (Width - 50) * 9 / 16);
+    CGSize size = CGSizeMake(Width - 50, (Width - 50) * 9 / 16);
+    NSLog(@"sizeForPageInFlowView：%@", NSStringFromCGSize(size));
+    return size;
 }
 
 - (CustomPagedFlowCell *)flowView:(WSMPagedFlowView *)flowView cellForPageAtIndex:(NSInteger)index{
@@ -79,6 +81,10 @@
     bannerView.mainImageView.image = _imageArray[index];
     bannerView.indexLabel.text = [NSString stringWithFormat:@"第%ld张图",(long)index + 1];
     return bannerView;
+}
+
+- (void)WSMPagedFlowView:(WSMPagedFlowView *)flowView horizontalOffset:(CGFloat)offset {
+    NSLog(@"视图水平方向偏移量：%@", @(offset));
 }
 
 #pragma mark - WSMPagedFlowViewDelegate
