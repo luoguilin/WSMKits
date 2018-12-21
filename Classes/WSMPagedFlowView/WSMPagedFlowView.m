@@ -22,6 +22,9 @@
  */
 @property (nonatomic,assign) CGSize pageSize;
 
+/* 之前的偏移量 */
+@property (nonatomic, assign) CGPoint lastOffset;
+
 @end
 
 //子控制器的类名
@@ -640,6 +643,16 @@ static NSString *subviewClassName;
     
     [self setPagesAtContentOffset:scrollView.contentOffset];
     [self refreshVisibleCellAppearance];
+    
+    BOOL needCallbackOffset = self.isCarousel && self.orginPageCount > 1 && self.orientation == WSMPagedFlowViewOrientationHorizontal;
+    if (needCallbackOffset) {
+        CGFloat currentShouldOffset = _pageSize.width*(5+pageIndex);
+        CGFloat offset = scrollView.contentOffset.x - currentShouldOffset;
+        if ([self.delegate respondsToSelector:@selector(WSMPagedFlowView:horizontalOffset:)]) {
+            [self.delegate WSMPagedFlowView:self horizontalOffset:offset];
+        }
+    }
+    _lastOffset = scrollView.contentOffset;
     
     if (self.pageControl && [self.pageControl respondsToSelector:@selector(setCurrentPage:)]) {
         

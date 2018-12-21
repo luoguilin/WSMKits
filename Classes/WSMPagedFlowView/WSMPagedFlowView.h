@@ -142,7 +142,7 @@ typedef enum{
 @end
 
 
-@protocol  WSMPagedFlowViewDelegate<NSObject>
+@protocol  WSMPagedFlowViewDelegate <NSObject>
 
 @optional
 /**
@@ -170,6 +170,15 @@ typedef enum{
  *
  */
 - (void)didSelectCell:(WSMPagedFlowCell *)subView withSubViewIndex:(NSInteger)subIndex;
+
+
+/**
+ 视图水平方向滑动的偏移量
+
+ @param flowView 当前WSMPagedFlowView对象
+ @param offset 水平方向滑动的偏移量，正：从右往左，负：从左往右
+ */
+- (void)WSMPagedFlowView:(WSMPagedFlowView *)flowView horizontalOffset:(CGFloat)offset;
 
 @end
 
