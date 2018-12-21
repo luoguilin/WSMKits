@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WSMKits"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "WSMKits is at development kits that the Mvoicer's developers using in projects. This kits includes PagedFlowView and so on."
   s.homepage     = "https://github.com/luoguilin/WSMKits"
   s.license      = "MIT"
